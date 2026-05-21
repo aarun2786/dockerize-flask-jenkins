@@ -3,9 +3,8 @@ pipeline{
     stages{
         stage("clone code"){
             steps{
-                git 'https://github.com/aarun2786/dockerize-flask-jenkins.git'
+		echo "git clone by jenins "
             }
-        }
         stage("build docker image"){
             steps{
                 sh 'docker build -t flask-app:lastest .'
