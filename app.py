@@ -9,7 +9,7 @@ def home():
     return "Hello, World! Your Flask app is running successfully."
 
 @app.route("/profile")
-def profile()
+def profile():
     return "Thsi is from profile path"
 
 # Run the application if this file is executed directly
