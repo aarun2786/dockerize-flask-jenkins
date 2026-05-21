@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("clone code"){
             steps{
-                git 'https://github.com/aarun2786/jenkins_dockerize_flask.git'
+                git 'https://github.com/aarun2786/dockerize-flask-jenkins.git'
             }
         }
         stage("build docker image"){
