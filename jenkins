@@ -5,6 +5,7 @@ pipeline{
             steps{
 		echo "git clone by jenins "
             }
+	}
         stage("build docker image"){
             steps{
                 sh 'docker build -t flask-app:lastest .'
